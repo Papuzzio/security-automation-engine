@@ -1,0 +1,28 @@
+{
+    "issues": [
+      {
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "myapp:src/main/App.java",
+        "line": 42,
+        "message": "Avoid throwing generic exceptions",
+        "type": "VULNERABILITY"
+      },
+      {
+        "rule": "javascript:S2092",
+        "severity": "CRITICAL",
+        "component": "myapp:src/utils/auth.js",
+        "line": 15,
+        "message": "Hardcoded credentials detected",
+        "type": "SECURITY_HOTSPOT"
+      },
+      {
+        "rule": "python:S104",
+        "severity": "MINOR",
+        "component": "myapp:src/api.py",
+        "line": 87,
+        "message": "Logging statement should use lazy % formatting",
+        "type": "CODE_SMELL"
+      }
+    ]
+  }  

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysis>
+  <dependencies>
+    <dependency>
+      <fileName>log4j-core-2.14.0.jar</fileName>
+      <filePath>/path/to/log4j-core-2.14.0.jar</filePath>
+      <vulnerabilities>
+        <vulnerability>
+          <name>CVE-2021-44228</name>
+          <severity>Critical</severity>
+          <description>Apache Log4j2 JNDI remote code execution vulnerability</description>
+          <cvssV3>
+            <baseScore>10.0</baseScore>
+          </cvssV3>
+        </vulnerability>
+      </vulnerabilities>
+    </dependency>
+    <dependency>
+      <fileName>openssl-1.0.2k.so</fileName>
+      <filePath>/path/to/openssl-1.0.2k.so</filePath>
+      <vulnerabilities>
+        <vulnerability>
+          <name>CVE-2018-0739</name>
+          <severity>High</severity>
+          <description>openssl X.509 parsing bug</description>
+          <cvssV3>
+            <baseScore>7.5</baseScore>
+          </cvssV3>
+        </vulnerability>
+      </vulnerabilities>
+    </dependency>
+  </dependencies>
+</analysis>
