@@ -17,6 +17,22 @@ This is a personal learning and portfolio project focused on security automation
 
 ---
 
+## How to Run
+
+1. Clone the repo:
+   git clone https://github.com/Papuzzio/security-automation-engine.git
+
+2. Install requirements:
+   pip install -r requirements.txt
+
+3. Run the parser:
+   python security_automation/sast_sca_parser.py
+
+4. Output will be generated here:
+   /reports/sast_sca_findings.xlsx
+
+---
+
 ## Project Structure
 
 ```text
